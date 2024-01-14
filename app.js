@@ -31,4 +31,3 @@ function redirectToExternalWebsite(url) {
     // Redirect the user to the specified external website
     window.location.href = url;
 }
-
