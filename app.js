@@ -9,7 +9,7 @@ function login() {
     // Example: Check login credentials
     if (username === 'suresh' && password === '12345678') {
         // Successful login
-        loadContent('home.html');
+        redirectToExternalWebsite('https://www.example.com');
         clearLoginError();
     } else {
         // Failed login
@@ -25,4 +25,9 @@ function displayLoginError(message) {
 function clearLoginError() {
     const loginError = document.getElementById('login-error');
     loginError.textContent = '';
+}
+
+function redirectToExternalWebsite(url) {
+    // Redirect the user to the specified external website
+    window.location.href = url;
 }
