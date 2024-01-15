@@ -9,7 +9,7 @@ function login() {
     // Example: Check login credentials
     if (username === 'suresh' && password === '12345678') {
         // Successful login
-        redirectToExternalWebsite('https://rahuldk1105.github.io/intra/');
+        redirectToExternalWebsite('www.google.com');
         clearLoginError();
     } else {
         // Failed login
